@@ -18,6 +18,7 @@ eg: nodeart "ASCII art is cool" "Whimsy"
 You can check the list of available fonts <a href='http://www.figlet.org/examples.html'>here</a>.
 
 ## Examples
+```
                               #
 #    #  ####  #####  ######   # #   #####  #####
 ##   # #    # #    # #       #   #  #    #   #
@@ -26,7 +27,9 @@ You can check the list of available fonts <a href='http://www.figlet.org/example
 #   ## #    # #    # #      #     # #   #    #
 #    #  ####  #####  ###### #     # #    #   #
 
+```
 
+```
                         d8b
                         88P                                  d8P
                        d88                                d888888P
@@ -34,7 +37,7 @@ You can check the list of available fonts <a href='http://www.figlet.org/example
   88P' ?8bd8P' ?88d8P' ?88  d8b_,dP    d8P' ?88    88P'  `  88P
  d88   88P88b  d8888b  ,88b 88b        88b  ,88b  d88       88b
 d88'   88b`?8888P'`?88P'`88b`?888P'    `?88P'`88bd88'       `?8b
-
+```
 
 
 ## Contributing
