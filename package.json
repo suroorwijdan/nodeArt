@@ -42,5 +42,5 @@
     "bin": {
         "nodeart": "lib/nodeArt.js"
     },
-    "keywords": []
+    "keywords": ["node art", "ascii art", "command line", "utility", "nodejs command line", "node ascii text"]
 }
