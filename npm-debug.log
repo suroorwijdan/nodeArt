@@ -1,0 +1,177 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/node-v0.10.5-linux-x64/bin/node',
+1 verbose cli   '/opt/node-v0.10.5-linux-x64/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose publish [ '.' ]
+5 verbose read json /home/suroor/node/node-cli/nodeArt/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/suroor/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz
+14 verbose folder .
+15 info prepublish Node-Art@0.0.1
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /home/suroor/.npm/3a52ce78-.lock
+18 silly lockFile caf713a8-8376-0-10157120483927429-tmp-tgz /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz
+19 verbose lock /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz /home/suroor/.npm/caf713a8-8376-0-10157120483927429-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile caf713a8-8376-0-10157120483927429-tmp-tgz /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz
+23 silly lockFile caf713a8-8376-0-10157120483927429-tmp-tgz /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz
+24 verbose tar unpack /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz
+25 silly lockFile f3166c07-8376-0-10157120483927429-package /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package
+26 verbose lock /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package /home/suroor/.npm/f3166c07-8376-0-10157120483927429-package.lock
+27 silly lockFile caf713a8-8376-0-10157120483927429-tmp-tgz /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz
+28 verbose lock /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz /home/suroor/.npm/caf713a8-8376-0-10157120483927429-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm extractEntry LICENSE
+34 silly gunzTarPerm extractEntry Gruntfile.js
+35 silly gunzTarPerm extractEntry .idea/.name
+36 silly gunzTarPerm extractEntry .idea/encodings.xml
+37 silly gunzTarPerm extractEntry .idea/misc.xml
+38 silly gunzTarPerm extractEntry .idea/modules.xml
+39 silly gunzTarPerm extractEntry .idea/node-cli.iml
+40 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+41 silly gunzTarPerm extractEntry .idea/vcs.xml
+42 silly gunzTarPerm extractEntry .idea/workspace.xml
+43 silly gunzTarPerm extractEntry .jshintrc
+44 silly gunzTarPerm extractEntry lib/nodeArt.js
+45 silly gunzTarPerm extractEntry test/nodeArt_test.js
+46 verbose read json /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package/package.json
+47 silly lockFile f3166c07-8376-0-10157120483927429-package /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package
+48 silly lockFile f3166c07-8376-0-10157120483927429-package /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package
+49 silly lockFile caf713a8-8376-0-10157120483927429-tmp-tgz /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz
+50 silly lockFile caf713a8-8376-0-10157120483927429-tmp-tgz /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/tmp.tgz
+51 verbose from cache /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package/package.json
+52 verbose tar pack [ '/home/suroor/.npm/Node-Art/0.0.1/package.tgz',
+52 verbose tar pack   '/home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package' ]
+53 verbose tarball /home/suroor/.npm/Node-Art/0.0.1/package.tgz
+54 verbose folder /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package
+55 silly lockFile f3166c07-8376-0-10157120483927429-package /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package
+56 verbose lock /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package /home/suroor/.npm/f3166c07-8376-0-10157120483927429-package.lock
+57 silly lockFile bfe17f30-r-npm-Node-Art-0-0-1-package-tgz /home/suroor/.npm/Node-Art/0.0.1/package.tgz
+58 verbose lock /home/suroor/.npm/Node-Art/0.0.1/package.tgz /home/suroor/.npm/bfe17f30-r-npm-Node-Art-0-0-1-package-tgz.lock
+59 silly lockFile f3166c07-8376-0-10157120483927429-package /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package
+60 silly lockFile f3166c07-8376-0-10157120483927429-package /home/suroor/tmp/npm-6401/1385981678376-0.10157120483927429/package
+61 silly lockFile bfe17f30-r-npm-Node-Art-0-0-1-package-tgz /home/suroor/.npm/Node-Art/0.0.1/package.tgz
+62 silly lockFile bfe17f30-r-npm-Node-Art-0-0-1-package-tgz /home/suroor/.npm/Node-Art/0.0.1/package.tgz
+63 silly lockFile e69850d4-uroor-npm-Node-Art-0-0-1-package /home/suroor/.npm/Node-Art/0.0.1/package
+64 verbose lock /home/suroor/.npm/Node-Art/0.0.1/package /home/suroor/.npm/e69850d4-uroor-npm-Node-Art-0-0-1-package.lock
+65 silly lockFile e69850d4-uroor-npm-Node-Art-0-0-1-package /home/suroor/.npm/Node-Art/0.0.1/package
+66 silly lockFile e69850d4-uroor-npm-Node-Art-0-0-1-package /home/suroor/.npm/Node-Art/0.0.1/package
+67 verbose tar unpack /home/suroor/.npm/Node-Art/0.0.1/package.tgz
+68 silly lockFile e69850d4-uroor-npm-Node-Art-0-0-1-package /home/suroor/.npm/Node-Art/0.0.1/package
+69 verbose lock /home/suroor/.npm/Node-Art/0.0.1/package /home/suroor/.npm/e69850d4-uroor-npm-Node-Art-0-0-1-package.lock
+70 silly lockFile bfe17f30-r-npm-Node-Art-0-0-1-package-tgz /home/suroor/.npm/Node-Art/0.0.1/package.tgz
+71 verbose lock /home/suroor/.npm/Node-Art/0.0.1/package.tgz /home/suroor/.npm/bfe17f30-r-npm-Node-Art-0-0-1-package-tgz.lock
+72 silly gunzTarPerm modes [ '755', '644' ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm extractEntry .npmignore
+75 silly gunzTarPerm extractEntry README.md
+76 silly gunzTarPerm extractEntry LICENSE
+77 silly gunzTarPerm extractEntry Gruntfile.js
+78 silly gunzTarPerm extractEntry .idea/.name
+79 silly gunzTarPerm extractEntry .idea/encodings.xml
+80 silly gunzTarPerm extractEntry .idea/misc.xml
+81 silly gunzTarPerm extractEntry .idea/modules.xml
+82 silly gunzTarPerm extractEntry .idea/node-cli.iml
+83 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+84 silly gunzTarPerm extractEntry .idea/vcs.xml
+85 silly gunzTarPerm extractEntry .idea/workspace.xml
+86 silly gunzTarPerm extractEntry .jshintrc
+87 silly gunzTarPerm extractEntry lib/nodeArt.js
+88 silly gunzTarPerm extractEntry test/nodeArt_test.js
+89 verbose read json /home/suroor/.npm/Node-Art/0.0.1/package/package.json
+90 silly lockFile e69850d4-uroor-npm-Node-Art-0-0-1-package /home/suroor/.npm/Node-Art/0.0.1/package
+91 silly lockFile e69850d4-uroor-npm-Node-Art-0-0-1-package /home/suroor/.npm/Node-Art/0.0.1/package
+92 silly lockFile bfe17f30-r-npm-Node-Art-0-0-1-package-tgz /home/suroor/.npm/Node-Art/0.0.1/package.tgz
+93 silly lockFile bfe17f30-r-npm-Node-Art-0-0-1-package-tgz /home/suroor/.npm/Node-Art/0.0.1/package.tgz
+94 silly shasum updated bytes 6742
+95 info shasum 6b3bcf68ab1d81c724e43a9751c1f2c658cc0b8f
+95 info shasum /home/suroor/.npm/Node-Art/0.0.1/package.tgz
+96 verbose from cache /home/suroor/.npm/Node-Art/0.0.1/package/package.json
+97 verbose chmod /home/suroor/.npm/Node-Art/0.0.1/package.tgz 644
+98 verbose chown /home/suroor/.npm/Node-Art/0.0.1/package.tgz [ 1000, 1000 ]
+99 silly lockFile 3a52ce78- .
+100 silly publish { name: 'Node-Art',
+100 silly publish   description: 'Make ASCII arts with this node.js command line utility',
+100 silly publish   version: '0.0.1',
+100 silly publish   homepage: 'https://github.com/suroorwijdan/nodeArt',
+100 silly publish   author:
+100 silly publish    { name: 'Suroor Wijdan',
+100 silly publish      email: 'suroor@intelligrape.com',
+100 silly publish      url: 'http://www.wotthetech.com' },
+100 silly publish   repository: { type: 'git', url: 'git@github.com:suroorwijdan/nodeArt.git' },
+100 silly publish   bugs: { url: 'https://github.com/suroorwijdan/nodeArt/issues' },
+100 silly publish   licenses:
+100 silly publish    [ { type: 'MIT',
+100 silly publish        url: 'https://github.com/suroorwijdan/nodeArt/blob/master/LICENSE' } ],
+100 silly publish   main: 'lib/nodeArt',
+100 silly publish   engines: { node: '>=0.10.0' },
+100 silly publish   scripts: { test: 'grunt nodeunit' },
+100 silly publish   devDependencies:
+100 silly publish    { 'grunt-contrib-jshint': '~0.6.4',
+100 silly publish      'grunt-contrib-nodeunit': '~0.2.0',
+100 silly publish      'grunt-contrib-watch': '~0.5.3',
+100 silly publish      grunt: '~0.4.2',
+100 silly publish      asciimo: '*',
+100 silly publish      colors: '*' },
+100 silly publish   preferGlobal: true,
+100 silly publish   bin: { nodeart: 'lib/nodeArt.js' },
+100 silly publish   keywords: [],
+100 silly publish   readme: '# nodeArt\n\nMake ASCII arts with this node.js command line utility\n\n## Getting Started\nInstall the module with: `sudo npm -g install nodeart`\n\n\nRun the command as follows:\n\n```\nnodeart "The_Text_to_be_Drawn_in_Console" "Name_of_the_Font"\n\neg: nodeart "ASCII art is cool" "Whimsy"\n```\n\n## Documentation\nYou can check the list of available fonts <a href=\'http://www.figlet.org/examples.html\'>here</a>.\n\n## Examples\n```\n                              #\n#    #  ####  #####  ######   # #   #####  #####\n##   # #    # #    # #       #   #  #    #   #\n# #  # #    # #    # #####  #     # #    #   #\n#  # # #    # #    # #      ####### #####    #\n#   ## #    # #    # #      #     # #   #    #\n#    #  ####  #####  ###### #     # #    #   #\n\n```\n\n```\n                        d8b\n                        88P                                  d8P\n                       d88                                d888888P\n  88bd88b  d8888b  d888888   d8888b     d888b8b    88bd88b  ?88\'\n  88P\' ?8bd8P\' ?88d8P\' ?88  d8b_,dP    d8P\' ?88    88P\'  `  88P\n d88   88P88b  d8888b  ,88b 88b        88b  ,88b  d88       88b\nd88\'   88b`?8888P\'`?88P\'`88b`?888P\'    `?88P\'`88bd88\'       `?8b\n```\n\n\n## Contributing\nYou can send pull requests for any feature you would like to add, or create issues if you encounter any bug.\n\n## Release History\nVersion 0.0.1\n\n## License\nCopyright (c) 2013 Suroor Wijdan  \nLicensed under the MIT license.\n',
+100 silly publish   readmeFilename: 'README.md',
+100 silly publish   _id: 'Node-Art@0.0.1',
+100 silly publish   dist: { shasum: '6b3bcf68ab1d81c724e43a9751c1f2c658cc0b8f' },
+100 silly publish   _from: '.' }
+101 verbose url raw Node-Art
+102 verbose url resolving [ 'https://registry.npmjs.org/', './Node-Art' ]
+103 verbose url resolved https://registry.npmjs.org/Node-Art
+104 info trying registry request attempt 1 at 16:24:53
+105 http PUT https://registry.npmjs.org/Node-Art
+106 http 403 https://registry.npmjs.org/Node-Art
+107 info trying registry request attempt 1 at 16:25:04
+108 http PUT https://registry.npmjs.org/Node-Art
+109 http 403 https://registry.npmjs.org/Node-Art
+110 error publish Failed PUT response 403
+111 error Error: forbidden New packages must have all-lowercase names: Node-Art
+111 error     at RegClient.<anonymous> (/opt/node-v0.10.5-linux-x64/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:269:14)
+111 error     at Request.self.callback (/opt/node-v0.10.5-linux-x64/lib/node_modules/npm/node_modules/request/index.js:142:22)
+111 error     at Request.EventEmitter.emit (events.js:98:17)
+111 error     at Request.<anonymous> (/opt/node-v0.10.5-linux-x64/lib/node_modules/npm/node_modules/request/index.js:856:14)
+111 error     at Request.EventEmitter.emit (events.js:117:20)
+111 error     at IncomingMessage.<anonymous> (/opt/node-v0.10.5-linux-x64/lib/node_modules/npm/node_modules/request/index.js:808:12)
+111 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+111 error     at _stream_readable.js:895:16
+111 error     at process._tickCallback (node.js:415:13)
+112 error If you need help, you may report this log at:
+112 error     <http://github.com/isaacs/npm/issues>
+112 error or email it to:
+112 error     <npm-@googlegroups.com>
+113 error System Linux 3.2.0-4-amd64
+114 error command "/opt/node-v0.10.5-linux-x64/bin/node" "/opt/node-v0.10.5-linux-x64/bin/npm" "publish"
+115 error cwd /home/suroor/node/node-cli/nodeArt
+116 error node -v v0.10.5
+117 error npm -v 1.2.18
+118 verbose exit [ 1, true ]
